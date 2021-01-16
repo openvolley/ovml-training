@@ -12,7 +12,7 @@ Credit: this repo is a clone of [Yolo_mark](https://github.com/AlexeyAB/Yolo_mar
 
 1.  Put your `.jpg` images into the `data/img` directory
 
-1. Run `./mark_ovml.sh` (Linux) or `mark_ovml.cmd` (Windows)
+1. Run `./mark_ovml.sh` (Linux) or `mark_ovml.cmd` (Windows). You might find it useful to make the bounding box lines thinner (cycle through line widths by pressing `w`) and hide the object names (`k`)
 
 1. Send us the contents of the `data/img` directory (the image files and their bounding box `.txt` annotation files)
 

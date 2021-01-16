@@ -12,7 +12,7 @@ Credit: this repo is a clone of [Yolo_mark](https://github.com/AlexeyAB/Yolo_mar
 
 1.  Put your `.jpg` images into the `data/img` directory
 
-1. Run `./mark_ovml.sh` (Linux) or `mark_ovml.cmd` (Windows). You might find it useful to make the bounding box lines thinner (cycle through line widths by pressing `w`) and hide the object names (`k`)
+1. Run `./mark_ovml.sh` (Linux) or `mark_ovml.cmd` (Windows). You might find it useful to make the bounding box lines thinner (cycle through line widths by pressing `w`) and hide the object names (`k`). See below for further key controls or press `h`
 
 1. Send us the contents of the `data/img` directory (the image files and their bounding box `.txt` annotation files)
 
@@ -22,10 +22,11 @@ Credit: this repo is a clone of [Yolo_mark](https://github.com/AlexeyAB/Yolo_mar
 
 - Try and collect images with varying ball colouration, lighting, court surrounds, and backgrounds
 
-- Mark *all* target objects in an image. If we are marking balls, don't just mark the ball in play. All other balls in view must also be marked. You might want to avoid images with ball trolleys full of balls, or balls all over the court during warmup for this reason
-
 - Avoid images with blurry balls (mild blurring is OK), or balls that are more than about 20% occluded by other objects (player bodies, net posts, etc)
 
+- Mark *all* target objects in an image. If you are marking balls, don't just mark the ball in play. All other balls in view must also be marked. You might want to avoid images with ball trolleys full of balls, or balls all over the court during warmup for this reason
+
+- The bounding box should be tight around the object but include all of it
 
 ## Compilation
 
